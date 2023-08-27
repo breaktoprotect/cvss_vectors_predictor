@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+torch = "*"
+torchvision = "*"
+sklearn = "*"
+scikit-learn = "*"
+
+[dev-packages]
+accelerate = "*"
+
+[requires]
+python_version = "3.11"
